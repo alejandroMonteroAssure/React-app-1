@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.user-card{
+  width: 14.35rem;
+  height: 21rem;
+  background-color: white;
+  border-radius: .625rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+}
+
+.avatar-like {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-like img {
+  padding: 2.5rem;
+  border-radius: 50%;
+}
+
+.avatar-like svg {
+  position: absolute;
+  bottom: 1.5rem;
+  background: white;
+  border-radius: .5rem;
+  padding: .25rem;
+  width: 1rem;
+  height: 1.75rem;
+  color: #3789BC;
+}
+
+.user-data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-data .name{
+  padding-top: 0;
+  margin-top: -1.25rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #666666;
+}
+
+.user-data .name{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: -1.25rem;
+  margin-bottom: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #666666;
+}
+
+.user-data .role{
+  padding-top: 0;
+  margin-top: .625rem;
+  margin-bottom: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #767676;
+}
+
+.location-div{
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+}
+
+.location-div svg{
+  color: #3789BC;
+}
+
+.user-data .location{
+  padding-top: 0;
+  margin-top: .625rem;
+  font-family: "Inter", sans-serif;
+  font-size: .625rem;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+}
