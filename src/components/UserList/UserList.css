@@ -1,0 +1,24 @@
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .user-list {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .user-list {
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+}
